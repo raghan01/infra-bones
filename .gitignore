@@ -5,3 +5,6 @@ terraform.tfstate
 
 # Any text file
 *.txt
+
+.terraform.lock.hcl
+.terraform*

@@ -1,4 +1,5 @@
 *.txt
 *.terraform*hcl*
 terraform.tfstate
+**/.terraform/*
 

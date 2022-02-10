@@ -1,0 +1,7 @@
+# Ignore json keyfile
+
+# Ignore terraform statefile
+terraform.tfstate
+
+# Any text file
+*.txt

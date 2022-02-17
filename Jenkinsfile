@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('execute') {
+      steps {
+        sh '''touch file_from_jenkins
+chmod 777 file_from_jenkins'''
+      }
+    }
+
   }
 }
